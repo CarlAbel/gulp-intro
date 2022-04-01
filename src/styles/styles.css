@@ -1,0 +1,16 @@
+body {
+    background-color: green;
+    font-size: 2em;
+    color: purple;
+}
+
+h1, h2, h3 {
+    font-size: 200%;
+    background-color: hotpink;
+}
+article::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}

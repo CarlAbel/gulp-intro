@@ -1,0 +1,1 @@
+const getFromApi={getAllProducts:function(){fetch("/api/products").then(t=>t.json()).then(t=>console.log(t))},getSingleProduct:function(){fetch("/api/products/"+id)}};function validateForm(){if(""==document.forms.myForm.fname.value)return alert("Name must be filled out"),!1}getFromApi.getAllProducts();
